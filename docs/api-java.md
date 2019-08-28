@@ -36,7 +36,7 @@ cmake_minimum_required(VERSION 3.4.1)
 ADD_DEFINITIONS(-DIN3_MATH_LITE)
 
 # loop through the required module and create the build folders
-for each (module 
+foreach (module 
   core 
   verifier/eth1/nano 
   verifier/eth1/evm 
